@@ -66,3 +66,15 @@ body {
     width: 90px;
     height: 50px;
 }
+
+.d-1 {
+    flex: 1;
+
+}
+
+.d-2 {
+    height: 50px;
+    font-size: 15px;
+    border-top: 20px solid #000;
+    
+}

@@ -18,8 +18,8 @@ body {
 }
 
 .display {
-    width: 500px;
-    height: 320px;
+    width: 530px;
+    height: 370px;
     background: linear-gradient(to right, #e8e8e8, #c1c1c1);
     border: 2px solid #555;
     display: flex;
@@ -54,6 +54,7 @@ body {
 }
 
 .btn-white {
+    
     background-color: #FFF;
     color: #000;
     font-size: 15px;
@@ -146,12 +147,15 @@ body {
 
 .d-1-img.small {
     width: 80px;
-    font-size: 12px;
+    padding-right: 20px;
+
 }
 
 .d-2 {
-    height: 50px;
-    font-size: 14px;
+    height: 240px;
+    font-size: 20px;
     border-top: 2px solid #000;
     padding-left: 70px;
 }
+
+

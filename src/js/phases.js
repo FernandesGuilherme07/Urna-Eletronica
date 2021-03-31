@@ -1,4 +1,4 @@
-let estapas = [
+let stage = [
     {
         title: 'VEREADOR',
         numbers: 5,

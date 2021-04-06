@@ -1,49 +1,51 @@
-let stage = [
+let etapas =[
     {
-        title: 'VEREADOR',
-        numbers: 5,
-        candidates: [
+        titulo: 'Vereador',
+        numeros: 5,
+        candidatos: [
             {
-                number:12345,
-                name: 'Fulano de Tal',
-                broken: 'ABC',
-                photos:[
-                    {url:'2021-03-30 (4).png', leg: 'Vereador'}
+                numero:'38111',
+                nome: 'Darius',
+                partido:'abc',
+                fotos:[
+                    {url:'3.png', legenda:'Vereador'}
                 ]
             },
             {
-                number:56789,
-                name: 'Beltrano de Tal',
-                broken: 'CBB',
-                photos:[
-                    {url:'2021-03-30 (5).png', leg: 'Vereador'}
+                numero:'77222',
+                nome: 'Dwuk',
+                partido:'cdc',
+                fotos:[
+                    {url:'4.png', legenda:'Vereador'}
                 ]
             },
         ]
     },
     {
-        title: 'PREFEITO',
-        numbers: 5,
-        candidates: [
+        titulo: 'Prefeito',
+        numeros: 2,
+        candidatos: [
             {
-                number:12,
-                name: 'Arquimendes',
-                broken: 'ABC',
-                vice: Marilda,
-                photos:[
-                    {url:'2021-03-30 (2).png', leg: 'Prefeito'},
-                    {url:'2021-03-30 (3).png', leg: 'Vice', small: true}
+                numero: '99',
+                nome: 'Cicl',
+                partido:'add',
+                vice:'coc',
+                fotos:[
+                    {url:'1.png', legenda:'Prefeito'},
+                    {url:'1_1.png',legenda:'Vice-Prefeito',small:true}
                 ]
             },
             {
-                number:56,
-                name: 'Santana',
-                broken: 'CBB',
-                vice: Ciço,
-                photos:[
-                    {url:'2021-03-30 (6).png', leg: 'Prefeito'},
-                    {url:'2021-03-30 (7).png', leg: 'Vice', small: true}
+                numero: '84',
+                nome: 'fdsl',
+                partido:'cxbd',
+                vice:'sdfs',
+                fotos:[
+                    {url:'2.png', legenda:'Prefeito'},
+                    {url:'2_1.png',legenda:'Vice-Prefeito', small:true}
+                ]
             }
+
         ]
-    },  
+    }
 ]

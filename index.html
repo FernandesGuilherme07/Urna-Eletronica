@@ -8,74 +8,68 @@
     <link rel="stylesheet" href="./src/css/style.css">
 </head>
 <body>
-    
     <div class="urna">
-        <div class="display"> 
+        <div class="tela">
             <div class="d-1">
                 <div class="d-1-left">
                     <div class="d-1-1">
                         <span>SEU VOTO PARA</span>
                     </div>
                     <div class="d-1-2">
-                        <span>VEREADOR</span>
+                        <span>vereador</span>
                     </div>
                     <div class="d-1-3">
-                        <div class="number flashes"></div>
-                        <div class="number"></div>
+                       <div class="numero pisca">3</div>
+                       <div class="numero pisca">8</div>
                     </div>
                     <div class="d-1-4">
-                        Nome: Fulano de Tal<br>
-                        Partido: FFF<br>
-                        Vice-Prefeito: Beltrano de Tal  
+                        Nome : cu <br/>
+                        Partido : 12<br/>
+                        vice: 44545
                     </div>
                 </div>
-                <div class="d-1-right">
-                    <div class="d-1-img">
-                        <img src="./src/img/2021-03-30 (2).png" alt="">
-                        Prefeito
+                 <div class="d-1-right">
+                        <div class="candidato">
+                            <img src="img/1.png" alt="">Prefeito
+                        </div>
+                        <div class="candidato small">
+                            <img src="img/1_1.png" alt="">Vice-Prefeito
+                        </div>
                     </div>
-                    <div class="d-1-img small">
-                        <img src="./src/img/2021-03-30 (3).png" alt="">
-                        Vici-Prefeito
-                    </div>
-                </div>
             </div>
             <div class="d-2">
-                Aperte a tela:
-                <br>
-                CONFIRMA para CONFIRMAR este voto 
-                <br>
-                CORRIGE para REINICIAR este voto
+                aperte a tela:<br/>
+                CONFIRMA para CONFIRMAR este voto <br/>
+                CORRIGE para CORRIGIR este voto
             </div>
         </div>
-        <div class="keyboard">
-            <div class="keyboard-line">
-                <div class="keyboard-button" onclick="clicou('1')">1</div>
-                <div class="keyboard-button" onclick="clicou('2')">2</div>
-                <div class="keyboard-button" onclick="clicou('3')">3</div>
-            </div>
-            <div class="keyboard-line">
-                <div class="keyboard-button" onclick="clicou('4')">4</div>
-                <div class="keyboard-button" onclick="clicou('5')">5</div>
-                <div class="keyboard-button" onclick="clicou('6')">6</div>
-            </div>
-            <div class="keyboard-line">
-                <div class="keyboard-button" onclick="clicou('7')">7</div>
-                <div class="keyboard-button" onclick="clicou('8')">8</div>
-                <div class="keyboard-button" onclick="clicou('9')">9</div>
-            </div>
-            <div class="keyboard-line">
-                <div class="keyboard-button" onclick="clicou('0')">0</div>
-            </div>
-            <div class="keyboard-line">
-                <div class="keyboard-button btn-white" onclick="clicou('white')">BRANCO</div>
-                <div class="keyboard-button btn-corrects" onclick="clicou('corrects')">CORRIGE</div>
-                <div class="keyboard-button btn-CONFIRMS" onclick="clicou('CONFIRMS')">CONFIRMA</div>
-            </div>
+        
+        <div class="teclado">
+            <div class="teclado-linha">
+                <div class="teclado-botao" onclick="clicou('1')">1</div>
+                <div class="teclado-botao"onclick="clicou('2')">2</div>
+                <div class="teclado-botao"onclick="clicou('3')">3</div>
+            </div> 
+            <div class="teclado-linha">
+                <div class="teclado-botao"onclick="clicou('4')">4</div>
+                <div class="teclado-botao"onclick="clicou('5')">5</div>
+                <div class="teclado-botao"onclick="clicou('6')">6</div>
+            </div> 
+            <div class="teclado-linha">
+                <div class="teclado-botao"onclick="clicou('7')">7</div>
+                <div class="teclado-botao"onclick="clicou('8')">8</div>
+                <div class="teclado-botao"onclick="clicou('9')">9</div>
+            </div> 
+            <div class="teclado-linha">
+                <div class="teclado-botao"onclick="clicou('0')">0</div>
+            </div> 
+            <div class="teclado-linha">
+                <div class="teclado-botao botao-branco" onclick="branco()">BRANCO</div>
+                <div class="teclado-botao botao-corrige"onclick="corrige()">CORRIGE</div>
+                <div class="teclado-botao botao-confirma"onclick="confirma()">CONFIRMA</div>
+            </div> 
+        </div>
     </div>
-
-
-
     <script src="./src/js/phases.js"></script>
     <script src="./src/js/script.js"></script>
 </body>
